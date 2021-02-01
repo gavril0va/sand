@@ -26,7 +26,7 @@ a {
 }
 
 .first-section-bg {
-  background-image: url('/img/bg.jpg');
+  background-image: url('../img/bg.jpg');
   background-size: cover;
   height: 100vh;
 }
@@ -82,15 +82,15 @@ a {
 }
 
 .info-bar__item_icon_pin {
-  background-image: url('/img/info-bar-pin.svg');
+  background-image: url('../img/info-bar-pin.svg');
 }
 
 .info-bar__item_icon_mail {
-  background-image: url('/img/info-bar-mail.svg');
+  background-image: url('../img/info-bar-mail.svg');
 }
 
 .info-bar__item_icon_phone {
-  background-image: url('/img/info-bar-phone.svg');
+  background-image: url('../img/info-bar-phone.svg');
 }
 
 .offer {
