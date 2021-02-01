@@ -1,12 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <title>Купить песок в Пензе</title>
 </head>
 <body>
-  <p>Максим, здесь ты сможешь видеть процесс создания сайта</p>
-  <h1>❤</h1>
+  <div class="first-section-bg">
+    <header class="header">
+      <div class="top-bar">
+        <div class="container top-bar__container">
+          <img class="logo" src="/img/logo.png" alt="Логотип компании АК-58">
+          <nav class="nav">
+            <a class="nav__item" href="#">
+              О компании
+            </a>
+            <a class="nav__item" href="#">
+              Наши карьеры
+            </a>
+            <a class="nav__item" href="#">
+              Доставка и оплата
+            </a>
+            <a class="nav__item" href="#">
+              Сертификаты
+            </a>
+            <a class="nav__item" href="#">
+              Контакты
+            </a>
+          </nav>
+        </div>
+      </div>  
+      <div class="info-bar">
+        <div class="container info-bar__container">
+            <ul class="info-bar__list">
+              <li class="info-bar__item info-bar__item_icon_pin">
+                г. Пенза, большая кукуевка
+              </li>
+              <li class="info-bar__item info-bar__item_icon_mail">
+                <a href="mailto:mail@mail.ru" class="info-bar__link">
+                  mail@mail.ru
+                </a>
+              </li>
+              <li class="info-bar__item info-bar__item_icon_phone">
+                <a href="tel:+79151511515" class="info-bar__link">
+                  +7 (915) 151-15-15
+                </a>
+              </li>
+            </ul>
+        </div>
+      </div>
+    </header>
+    <div class="offer">
+      <div class="container offer__container">
+        <h1 class="offer__title">
+          <span class="offer__title-bg">
+            Доставка песка напрямую&nbspиз&nbspкарьера без&nbspпосредников
+          </span>
+        </h1>
+        <div class="callback">
+          <h2 class="callback__title">
+            Заполните заявку
+          </h2>
+          <form action="https://formspree.io/f/xjvpzgbk" method="POST">
+            <label>
+              Ваше имя
+              <input type="text" name="name" required>
+            </label>
+            <label>
+              Ваше Телефон
+              <input type="tel" name="mail" required>
+            </label>
+            <label>
+              Сообщение
+              <textarea name="message" placeholder="Необязательное поле"></textarea>
+            </label>
+
+            <button type="submit">Send</button>
+          </form>
+      </div>
+      
+      </div>
+    </div>
+  </div>
+  
 </body>
 </html>
