@@ -94,15 +94,18 @@ a {
 }
 
 .offer {
-  align-self: flex-end;
+
 }
 
 .offer__container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  padding-top: 100px;
 }
 
 .offer__title {
+  flex-basis: 40%;
   font: 700 50px/1.5 'Raleway', sans-serif;
   color: #fff;
   text-transform: uppercase;
@@ -110,4 +113,121 @@ a {
 
 .offer__title-bg {
   background: rgba(34, 34, 34, .6);
+}
+
+.callback {
+  flex-basis: 30%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 20px;
+  border-radius: 7px;
+  background-color:#fff;
+}
+
+.callback__wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.callback__title {
+  margin: 0;
+  padding: 30px 0;
+  border-radius: 7px 7px 0 0;
+  font: 700 20px/1.5 'Raleway', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #ffcc00;
+}
+
+.callback__arrow{
+  align-self: center;
+  width: 15px;
+  border: 15px solid transparent; 
+  border-top: 15px solid #ffcc00;
+}
+
+.callback__form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+.callback__item-name {
+  display: block;
+}
+
+.callback__item-input {
+  display: block;
+  margin-bottom: 10px;
+  width: 80%;
+  padding: 15px 40px;
+  border: 1px solid #000;
+  border-radius: 3px;
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+  background-position: 5px center;
+}
+
+.callback__item-input_user {
+  background-image: url('../img/user.svg');
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+  background-position: 5px center;
+}
+
+.callback__item-input_phone {
+  background-image: url('../img/info-bar-phone.svg');
+}
+
+.callback__item-input_message {
+  background-image: url('../img/comment.svg');
+}
+
+.callback__item-textarea {
+  resize: none;
+}
+
+.callback__btn {
+  display: block;
+}
+
+
+.btt
+ {
+  width:300px;
+  height:45px;
+  
+  margin-left:170px;
+  border: none;
+  background: url('../img/logo.png') no-repeat;
+  background-size: 100% 100%;
+}
+#edd 
+{
+
+  border: none;
+  background: transparent;
+  font-size:11pt;
+  padding-left: 30px;
+  padding-right: 30px;
+
+  width:300px;
+  height:45px;
+  color:black;
+  margin-bottom:12px;
+
+  outline: none;
+
+}
+ /* для того, что бы не выскакивал оранжевый фон автозаполнения занести к себе в конспектц 
+ 
+ Нужно навести порядок в форме html - обернуть inputы в дивы, что бы присвоить картинки
+ 
+ Полностью пересмотреть код формы*/
+
+
+ 
+input:-webkit-autofill {
+  transition: all 5000s ease-in-out 0s;
 }
